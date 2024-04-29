@@ -1,15 +1,14 @@
 package com.devsuperior.dsmeta.dto;
 
-import java.time.LocalDate;
-
 import com.devsuperior.dsmeta.entities.Sale;
+
+import java.time.LocalDate;
 
 public class SaleMinDTO {
 
 	private Long id;
 	private Double amount;
 	private LocalDate date;
-
 	private String name;
 	
 	public SaleMinDTO(Long id, Double amount, LocalDate date, String seller) {
@@ -41,4 +40,5 @@ public class SaleMinDTO {
 	public String getName() {
 		return name;
 	}
+
 }
